@@ -18,6 +18,7 @@
 		953E22322568525900E707A3 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E22312568525900E707A3 /* AppetizerListCell.swift */; };
 		953E22352568536900E707A3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E22342568536900E707A3 /* NetworkManager.swift */; };
 		953E22382568549900E707A3 /* ApError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E22372568549900E707A3 /* ApError.swift */; };
+		953E223B25685B8300E707A3 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		953E22312568525900E707A3 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		953E22342568536900E707A3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		953E22372568549900E707A3 /* ApError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApError.swift; sourceTree = "<group>"; };
+		953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				953E22312568525900E707A3 /* AppetizerListCell.swift */,
 				953E22342568536900E707A3 /* NetworkManager.swift */,
 				953E22372568549900E707A3 /* ApError.swift */,
+				953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */,
 			);
 			path = "SE-Appetizers";
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				953E222F25683F3700E707A3 /* Appetizer.swift in Sources */,
 				953E22382568549900E707A3 /* ApError.swift in Sources */,
 				953E22322568525900E707A3 /* AppetizerListCell.swift in Sources */,
+				953E223B25685B8300E707A3 /* AppetizerListViewModel.swift in Sources */,
 				953E222925681A1700E707A3 /* AccountView.swift in Sources */,
 				953E2217256818F500E707A3 /* AppetizerTabView.swift in Sources */,
 				953E22352568536900E707A3 /* NetworkManager.swift in Sources */,

@@ -13,7 +13,7 @@ struct AppetizerListCell: View {
     
     var body: some View {
         HStack {
-            Image(appetizer.imageURL)
+            Image("asian-flank-steak")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 120, height: 90)
