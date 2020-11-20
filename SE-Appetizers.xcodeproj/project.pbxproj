@@ -72,21 +72,14 @@
 		953E2213256818F500E707A3 /* SE-Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				953E224B25686F6900E707A3 /* Model */,
+				953E224725686F0300E707A3 /* Utilities */,
+				953E224C25686F9C00E707A3 /* Views */,
+				953E224325686E8E00E707A3 /* Screens */,
 				953E2214256818F500E707A3 /* SE_AppetizersApp.swift */,
-				953E2216256818F500E707A3 /* AppetizerTabView.swift */,
 				953E2218256818F600E707A3 /* Assets.xcassets */,
 				953E221D256818F600E707A3 /* Info.plist */,
 				953E221A256818F600E707A3 /* Preview Content */,
-				953E222525681A0E00E707A3 /* AppetizerListView.swift */,
-				953E222825681A1700E707A3 /* AccountView.swift */,
-				953E222B25681A2100E707A3 /* OrderView.swift */,
-				953E222E25683F3700E707A3 /* Appetizer.swift */,
-				953E22312568525900E707A3 /* AppetizerListCell.swift */,
-				953E22342568536900E707A3 /* NetworkManager.swift */,
-				953E22372568549900E707A3 /* ApError.swift */,
-				953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */,
-				953E223D25685E6A00E707A3 /* Alert.swift */,
-				953E224025686A6F00E707A3 /* RemoteImage.swift */,
 			);
 			path = "SE-Appetizers";
 			sourceTree = "<group>";
@@ -97,6 +90,101 @@
 				953E221B256818F600E707A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		953E224325686E8E00E707A3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				953E2216256818F500E707A3 /* AppetizerTabView.swift */,
+				953E224425686E9D00E707A3 /* AppetizerListView */,
+				953E224525686EAF00E707A3 /* AccountView */,
+				953E224625686EBA00E707A3 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		953E224425686E9D00E707A3 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */,
+				953E222525681A0E00E707A3 /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		953E224525686EAF00E707A3 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				953E222825681A1700E707A3 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		953E224625686EBA00E707A3 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				953E222B25681A2100E707A3 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		953E224725686F0300E707A3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				953E224A25686F3600E707A3 /* Alerts */,
+				953E224825686F0C00E707A3 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		953E224825686F0C00E707A3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				953E22342568536900E707A3 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		953E224A25686F3600E707A3 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				953E22372568549900E707A3 /* ApError.swift */,
+				953E223D25685E6A00E707A3 /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		953E224B25686F6900E707A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				953E222E25683F3700E707A3 /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		953E224C25686F9C00E707A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				953E224F25686FBE00E707A3 /* Images */,
+				953E224E25686FB400E707A3 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		953E224E25686FB400E707A3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				953E22312568525900E707A3 /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		953E224F25686FBE00E707A3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				953E224025686A6F00E707A3 /* RemoteImage.swift */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
