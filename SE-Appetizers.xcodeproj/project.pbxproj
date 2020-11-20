@@ -20,6 +20,7 @@
 		953E22382568549900E707A3 /* ApError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E22372568549900E707A3 /* ApError.swift */; };
 		953E223B25685B8300E707A3 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */; };
 		953E223E25685E6A00E707A3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E223D25685E6A00E707A3 /* Alert.swift */; };
+		953E224125686A6F00E707A3 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E224025686A6F00E707A3 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		953E22372568549900E707A3 /* ApError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApError.swift; sourceTree = "<group>"; };
 		953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		953E223D25685E6A00E707A3 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		953E224025686A6F00E707A3 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				953E22372568549900E707A3 /* ApError.swift */,
 				953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */,
 				953E223D25685E6A00E707A3 /* Alert.swift */,
+				953E224025686A6F00E707A3 /* RemoteImage.swift */,
 			);
 			path = "SE-Appetizers";
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				953E222F25683F3700E707A3 /* Appetizer.swift in Sources */,
 				953E22382568549900E707A3 /* ApError.swift in Sources */,
 				953E22322568525900E707A3 /* AppetizerListCell.swift in Sources */,
+				953E224125686A6F00E707A3 /* RemoteImage.swift in Sources */,
 				953E223B25685B8300E707A3 /* AppetizerListViewModel.swift in Sources */,
 				953E222925681A1700E707A3 /* AccountView.swift in Sources */,
 				953E2217256818F500E707A3 /* AppetizerTabView.swift in Sources */,
