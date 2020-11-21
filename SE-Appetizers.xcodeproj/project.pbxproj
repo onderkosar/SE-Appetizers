@@ -27,6 +27,7 @@
 		954F9D5125694D410061D6C9 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D5025694D410061D6C9 /* AccountViewModel.swift */; };
 		954F9D5625694EE40061D6C9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D5525694EE40061D6C9 /* String+Ext.swift */; };
 		954F9D5925694F6D0061D6C9 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D5825694F6D0061D6C9 /* Color+Ext.swift */; };
+		954F9D5C2569AE3D0061D6C9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D5B2569AE3D0061D6C9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		954F9D5025694D410061D6C9 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		954F9D5525694EE40061D6C9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		954F9D5825694F6D0061D6C9 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		954F9D5B2569AE3D0061D6C9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				953E222E25683F3700E707A3 /* Appetizer.swift */,
+				954F9D5B2569AE3D0061D6C9 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				953E222625681A0E00E707A3 /* AppetizerListView.swift in Sources */,
 				953E222C25681A2100E707A3 /* OrderView.swift in Sources */,
 				954F9D4E256942E50061D6C9 /* XDismissButton.swift in Sources */,
+				954F9D5C2569AE3D0061D6C9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
