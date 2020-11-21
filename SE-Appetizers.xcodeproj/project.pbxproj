@@ -24,6 +24,9 @@
 		954F9D46256935050061D6C9 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D45256935050061D6C9 /* AppetizerDetailView.swift */; };
 		954F9D4A256942040061D6C9 /* ApButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D49256942040061D6C9 /* ApButton.swift */; };
 		954F9D4E256942E50061D6C9 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D4D256942E50061D6C9 /* XDismissButton.swift */; };
+		954F9D5125694D410061D6C9 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D5025694D410061D6C9 /* AccountViewModel.swift */; };
+		954F9D5625694EE40061D6C9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D5525694EE40061D6C9 /* String+Ext.swift */; };
+		954F9D5925694F6D0061D6C9 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D5825694F6D0061D6C9 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		954F9D45256935050061D6C9 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		954F9D49256942040061D6C9 /* ApButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApButton.swift; sourceTree = "<group>"; };
 		954F9D4D256942E50061D6C9 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		954F9D5025694D410061D6C9 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		954F9D5525694EE40061D6C9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		954F9D5825694F6D0061D6C9 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,7 @@
 		953E224525686EAF00E707A3 /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				954F9D5025694D410061D6C9 /* AccountViewModel.swift */,
 				953E222825681A1700E707A3 /* AccountView.swift */,
 			);
 			path = AccountView;
@@ -138,6 +145,7 @@
 		953E224725686F0300E707A3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				954F9D5425694ECB0061D6C9 /* Extensions */,
 				953E224A25686F3600E707A3 /* Alerts */,
 				953E224825686F0C00E707A3 /* Managers */,
 			);
@@ -202,6 +210,15 @@
 				954F9D4D256942E50061D6C9 /* XDismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		954F9D5425694ECB0061D6C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				954F9D5525694EE40061D6C9 /* String+Ext.swift */,
+				954F9D5825694F6D0061D6C9 /* Color+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +293,7 @@
 				953E222F25683F3700E707A3 /* Appetizer.swift in Sources */,
 				953E22382568549900E707A3 /* ApError.swift in Sources */,
 				953E22322568525900E707A3 /* AppetizerListCell.swift in Sources */,
+				954F9D5625694EE40061D6C9 /* String+Ext.swift in Sources */,
 				953E224125686A6F00E707A3 /* RemoteImage.swift in Sources */,
 				953E223B25685B8300E707A3 /* AppetizerListViewModel.swift in Sources */,
 				953E222925681A1700E707A3 /* AccountView.swift in Sources */,
@@ -283,6 +301,8 @@
 				953E2217256818F500E707A3 /* AppetizerTabView.swift in Sources */,
 				953E22352568536900E707A3 /* NetworkManager.swift in Sources */,
 				954F9D46256935050061D6C9 /* AppetizerDetailView.swift in Sources */,
+				954F9D5925694F6D0061D6C9 /* Color+Ext.swift in Sources */,
+				954F9D5125694D410061D6C9 /* AccountViewModel.swift in Sources */,
 				953E2215256818F500E707A3 /* SE_AppetizersApp.swift in Sources */,
 				953E223E25685E6A00E707A3 /* Alert.swift in Sources */,
 				953E222625681A0E00E707A3 /* AppetizerListView.swift in Sources */,
