@@ -27,6 +27,7 @@ struct AppetizerTabView: View {
                 }
         }
         .accentColor(.brandPrimary)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
