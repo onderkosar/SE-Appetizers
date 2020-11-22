@@ -21,6 +21,7 @@
 		953E223B25685B8300E707A3 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */; };
 		953E223E25685E6A00E707A3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E223D25685E6A00E707A3 /* Alert.swift */; };
 		953E224125686A6F00E707A3 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E224025686A6F00E707A3 /* RemoteImage.swift */; };
+		9548EB4D256ACF0D003DC8AD /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548EB4C256ACF0D003DC8AD /* Date+Ext.swift */; };
 		954F9D46256935050061D6C9 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D45256935050061D6C9 /* AppetizerDetailView.swift */; };
 		954F9D4A256942040061D6C9 /* ApButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D49256942040061D6C9 /* ApButton.swift */; };
 		954F9D4E256942E50061D6C9 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954F9D4D256942E50061D6C9 /* XDismissButton.swift */; };
@@ -49,6 +50,7 @@
 		953E223A25685B8300E707A3 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		953E223D25685E6A00E707A3 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		953E224025686A6F00E707A3 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		9548EB4C256ACF0D003DC8AD /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		954F9D45256935050061D6C9 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		954F9D49256942040061D6C9 /* ApButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApButton.swift; sourceTree = "<group>"; };
 		954F9D4D256942E50061D6C9 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			children = (
 				954F9D5525694EE40061D6C9 /* String+Ext.swift */,
 				954F9D5825694F6D0061D6C9 /* Color+Ext.swift */,
+				9548EB4C256ACF0D003DC8AD /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				954F9D5125694D410061D6C9 /* AccountViewModel.swift in Sources */,
 				953E2215256818F500E707A3 /* SE_AppetizersApp.swift in Sources */,
 				953E223E25685E6A00E707A3 /* Alert.swift in Sources */,
+				9548EB4D256ACF0D003DC8AD /* Date+Ext.swift in Sources */,
 				953E222625681A0E00E707A3 /* AppetizerListView.swift in Sources */,
 				953E222C25681A2100E707A3 /* OrderView.swift in Sources */,
 				954F9D4E256942E50061D6C9 /* XDismissButton.swift in Sources */,
